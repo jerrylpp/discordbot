@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 module.exports = {
     name: 'serverinfo',
     description: "this is a command",
-    execute(client, message) {
+    execute(message, args){
         let embed = new Discord.MessageEmbed()
         .setTimestamp()
     .setTitle("**Server Information**")
