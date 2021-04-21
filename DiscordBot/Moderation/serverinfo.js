@@ -1,10 +1,6 @@
-const { description } = require("./ban");
+const Discord = require('discord.js');
 
-module.exports = {
-    name: 'serverinfo',
-    description: 'null',
-    execute(message, args){
-        const Discord = require('discord.js');
+
 module.exports = {
     name: 'serverinfo',
     description: "this is a command",
@@ -29,7 +25,6 @@ module.exports = {
     .setAuthor(message.author.username, message.author.displayAvatarURL({format: 'png'}))
         message.channel.send(embed);    
     }
-}
-    }
+};
+    
 
-}
