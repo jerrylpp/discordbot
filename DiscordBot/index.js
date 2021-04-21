@@ -61,7 +61,9 @@ if(command === 'purge'){
     client.commands.get('purge').execute(message, args);
 }
 
-
+if(command === 'serverinfo'){
+    client.commands.get('serverinfo').execute(message, args);
+}
 
 
 });
