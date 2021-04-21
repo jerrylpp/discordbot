@@ -68,4 +68,5 @@ if(command === 'purge'){
 
 
 
-client.login('ODM0MjQxNzg5ODIwMjcyNzAw.YH-CNg.V4P9LEq-8y2X3RlG49lPduwVaY8');
+
+client.login(process.env.DJS_TOKEN);
