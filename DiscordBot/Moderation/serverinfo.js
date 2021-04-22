@@ -1,4 +1,4 @@
-const Discord = require('../Commands/node_modules/discord.js.js');
+const Discord = require('../Main/node_modules/discord.js.js.js.js');
 
 
 module.exports = {

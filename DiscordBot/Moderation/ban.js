@@ -26,7 +26,7 @@ module.exports = {
     }
 
     User.ban({reason: banReason})
-    const Discord = require('../Commands/node_modules/discord.js.js');
+    const Discord = require('../Main/node_modules/discord.js.js.js.js');
     const banEmbed = new Discord.MessageEmbed()
     .setColor('RED')
     .setTimestamp()
