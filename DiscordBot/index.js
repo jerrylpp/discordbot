@@ -17,12 +17,12 @@ client.commands = new Discord.Collection();
 
 
 
-const commandFiles = fs.readdirSync('./Main/').filter(file => file.endsWith('.js'));
-for(const file of commandFiles){
-    const command = require(`./Main/${file}`);
+//const commandFiles = fs.readdirSync('./Main/').filter(file => file.endsWith('.js'));
+//for(const file of commandFiles){
+   // const command = require(`./Main/${file}`);
  
-    client.commands.set(command.name, command);
-}
+   // client.commands.set(command.name, command);
+//}
 
 const modFiles = fs.readdirSync('./Moderation/').filter(file => file.endsWith('.js'));
 for(const file of modFiles){
