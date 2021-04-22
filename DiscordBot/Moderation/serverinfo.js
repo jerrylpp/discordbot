@@ -1,5 +1,5 @@
-const Discord = require('../Main/node_modules/discord.js.js.js.js');
 
+const Discord = require('discord.js');
 
 module.exports = {
     name: 'serverinfo',
