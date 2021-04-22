@@ -92,6 +92,16 @@ if(command === 'commands'){
     client.commands.get('commands').execute(message, args);
 }
 
+if(command === 'help'){
+    client.commands.get('help').execute(message, args);
+}
+
+if(command === 'info'){
+    client.commands.get('help').execute(message, args);
+}
+
+
+
 });
 
 
