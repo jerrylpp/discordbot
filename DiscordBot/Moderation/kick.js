@@ -25,7 +25,7 @@ module.exports = {
     }
 
     User.kick({reason: kickReason})
-    const Discord = require('discord.js');
+    const Discord = require('../Commands/node_modules/discord.js.js');
     const kickEmbed = new Discord.MessageEmbed()
     .setColor('BLUE')
     .setTimestamp()

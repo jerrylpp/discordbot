@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+const Discord = require('./Commands/node_modules/discord.js.js');
 
 const client = new Discord.Client();
 
@@ -8,6 +8,12 @@ const fs = require('fs');
 const { isBuffer } = require('util');
 
 client.commands = new Discord.Collection();
+
+
+
+//------
+
+
 
 const commandFiles = fs.readdirSync('./Commands/').filter(file => file.endsWith('.js'));
 for(const file of commandFiles){
@@ -23,12 +29,26 @@ for(const file of modFiles){
     client.commands.set(modcommand.name, modcommand);
 } 
 
+const funFiles = fs.readdirSync('./Fun/').filter(file => file.endsWith('.js'));
+for(const file of funFiles){
+    const funcommand = require(`./Fun/${file}`);
+ 
+    client.commands.set(funcommand.name, funcommand);
+} 
+
+//------
+
+
 client.once('ready', () => {
     console.log('Bot online.');
     client.user.setActivity(`Dababy Car Driving 3D`);
 });
 
  
+
+//------
+
+
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.bot) return;
  
@@ -65,6 +85,9 @@ if(command === 'serverinfo'){
     client.commands.get('serverinfo').execute(message, args);
 }
 
+if(command === 'commands'){
+    client.commands.get('commands').execute(message, args);
+}
 
 });
 
