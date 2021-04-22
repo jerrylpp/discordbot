@@ -2,7 +2,7 @@ module.exports = {
     name: 'say',
     description: "bot will type what u tell it to type",
     execute(message, args){
-const Discord = require('../Commands/node_modules/discord.js.js')
+const Discord = require('discord.js')
 const output = args.join(' ')
 
 if (!args[0]) return message.reply('what tf do you want me to say retard')
