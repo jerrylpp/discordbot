@@ -11,7 +11,7 @@ max = Math.floor(100);
 const gayrate = Math.floor(Math.random() * (max - min + 1)) + min;
 
  message.channel.send(`You are ${gayrate}% gay`);
- if('${gayrate}' < 50)message.channel.send('nigga ur gay');
+ if(gayrate < 50) then(message.channel.send('nigga ur gay'));
     
 
     
