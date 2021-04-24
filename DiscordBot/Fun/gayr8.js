@@ -1,7 +1,7 @@
 const { execute } = require("../Moderation/ban");
 
 module.exports = {
-    name: "iqrate",
+    name: "gayr8",
     description: "null",
     execute(message, args){
         

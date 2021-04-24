@@ -100,8 +100,8 @@ if(command === 'info'){
     client.commands.get('help').execute(message, args);
 }
 
-if(command === 'iqrate'){
-    client.commands.get('iqrate').execute(message, args);
+if(command === 'gayr8'){
+    client.commands.get('gayr8').execute(message, args);
 }
 
 
