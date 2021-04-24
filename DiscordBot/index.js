@@ -104,7 +104,7 @@ if(command === 'help'){
 }
 
 if(command === 'info'){
-    client.commands.get('help').execute(message, args);
+    client.commands.get('info').execute(message, args);
 }
 
 if(command === 'gayr8'){
