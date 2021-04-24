@@ -51,7 +51,7 @@ for(const file of hubFiles){
 
 client.once('ready', () => {
     console.log('Bot online.');
-    client.user.setActivity(`Dababy Car Driving 3D`);
+    client.user.setActivity(`!help`);
 });
 
  

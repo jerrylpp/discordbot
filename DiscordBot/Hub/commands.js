@@ -11,8 +11,11 @@ module.exports = {
     .setTitle("**List of Commands**")
     .setColor('RANDOM')
     .setThumbnail(message.guild.iconURL({ dynamic: true }))
-    .addField(`Moderator Commands:`, '`!ban`, `!kick`, `!purge`')
-    .addField(`Fun Commands:`, '`!say <>`')
+    
+    .addField(`Moderation Commands:`, '`!ban`, `!kick`, `!purge`, `!serverinfo`')
+    .addField(`Fun Commands:`, '`!say <>`, `!gayr8`,')
+    .addField(`Help Commands:`, '`!help`, `!info`,')
+    
     .setAuthor(message.author.username, message.author.displayAvatarURL({format: 'png'}))
     
     

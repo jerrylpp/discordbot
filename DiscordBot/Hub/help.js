@@ -9,8 +9,10 @@ module.exports = {
     .setTitle("**Help Menu**")
     .setColor('RANDOM')
     .setThumbnail(message.guild.iconURL({ dynamic: true }))
+    
     .addField(`View the List of Commands`, '`!commands`')
     .addField(`General Info Regarding the Bot`, '`!info`')
+    
     .setAuthor(message.author.username, message.author.displayAvatarURL({format: 'png'}))
         message.channel.send(embed);    
     }
