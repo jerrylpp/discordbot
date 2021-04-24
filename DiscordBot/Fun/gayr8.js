@@ -1,4 +1,4 @@
-const { execute } = require("../Moderation/ban");
+
 
 module.exports = {
     name: "gayr8",
@@ -11,10 +11,10 @@ max = Math.floor(100);
 const gayrate = Math.floor(Math.random() * (max - min + 1)) + min;
 
 if(gayrate > 99) return (message.channel.send(
-    'nigga ur 100% gay'
+    'ur 100% gay'
 ));
  
-if(gayrate = 69) return (message.channel.send(
+if(gayrate < 70, gayrate > 68) return (message.channel.send(
     'bruh ur 69% gay'
 ));
 
