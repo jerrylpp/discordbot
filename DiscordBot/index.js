@@ -39,6 +39,13 @@ for(const file of funFiles){
     client.commands.set(funcommand.name, funcommand);
 } 
 
+const hubFiles = fs.readdirSync('./Hub/').filter(file => file.endsWith('.js'));
+for(const file of hubFiles){
+    const hubcommand = require(`./Hub/${file}`);
+ 
+    client.commands.set(hubcommand.name, hubcommand);
+} 
+
 //------
 
 
