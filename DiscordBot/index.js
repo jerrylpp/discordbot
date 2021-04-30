@@ -111,6 +111,10 @@ if(command === 'gayr8'){
     client.commands.get('gayr8').execute(message, args);
 }
 
+if(commad === 'negus'){
+    client.commands.get('negus').execute(message, args);
+}
+
 
 });
 
