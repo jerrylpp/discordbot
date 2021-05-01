@@ -46,9 +46,9 @@ for(const file of hubFiles){
     client.commands.set(hubcommand.name, hubcommand);
 } 
 
-const generalFiles = fs.readdirSync('./Hub/').filter(file => file.endsWith('.js'));
+const generalFiles = fs.readdirSync('./General/').filter(file => file.endsWith('.js'));
 for(const file of generalFiles){
-    const gencommand = require(`./Hub/${file}`);
+    const gencommand = require(`./General/${file}`);
  
     client.commands.set(gencommand.name, gencommand);
 } 
