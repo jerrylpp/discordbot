@@ -46,6 +46,13 @@ for(const file of hubFiles){
     client.commands.set(hubcommand.name, hubcommand);
 } 
 
+const generalFiles = fs.readdirSync('./Hub/').filter(file => file.endsWith('.js'));
+for(const file of generalFiles){
+    const gencommand = require(`./Hub/${file}`);
+ 
+    client.commands.set(gencommand.name, gencommand);
+} 
+
 //------
 
 
@@ -116,6 +123,10 @@ if(command === 'negus'){
 }
 
 if(command === 'penis'){
+    client.commands.get('penis').execute(message, args);
+}
+
+if(command === 'ping'){
     client.commands.get('penis').execute(message, args);
 }
 
