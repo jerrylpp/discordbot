@@ -11,7 +11,7 @@ module.exports = {
     .setThumbnail(message.guild.iconURL({ dynamic: true }))
     
     .addField(`Big brain dev:`, '`jærry#0420 | 344662624534921226`')
-    .addField(`Bot Version:`, '`v1.2.8`')
+    .addField(`Bot Version:`, '`v1.4.0`')
     
 
     .setFooter('Last updated April 24th, 2021')
