@@ -115,6 +115,9 @@ if(commad === 'negus'){
     client.commands.get('negus').execute(message, args);
 }
 
+if(command === 'penis'){
+    client.commands.get('penis').execute(message, args);
+}
 
 });
 
