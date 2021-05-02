@@ -126,9 +126,9 @@ if(command === 'penis'){
     client.commands.get('penis').execute(message, args);
 }
 
-// if(command === 'ping'){
-//     client.commands.get('ping').execute(message, args);
-// }
+if(command === 'ping'){
+    client.commands.get('ping').execute(message, args);
+}
 
 });
 

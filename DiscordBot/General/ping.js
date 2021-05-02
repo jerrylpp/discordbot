@@ -1,8 +1,17 @@
-// module.exports = {
-//     name: 'ping',
-//     description: 'nah',
-//     execute(message, args){
-//         message.channel.send(`Latency is ${msg.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`);
-//     }
+module.exports = {
+    name: 'ping',
+    description: 'nah',
+    execute(message, args){
+        message.reply('Calculating ping...').then((resultMessage) => {
+            const ping = resultMessage.createdTimestamp - message.createdTimestamp
+
+            message.reply(`Bot latency: ${ping}, API latency: ${client.ws.ping}`)
+
+
+        })
         
-// }
+
+
+    },
+        
+}
