@@ -5,7 +5,7 @@ module.exports = {
 const Discord = require('discord.js')
 const output = args.join(' ')
 
-if (!args[0]) return message.reply('what tf do you want me to say retard')
+if (!args[0]) return message.reply('nah')
 
 
 //if (!message.member.hasPermission("MANAGE_MESSAGES"))return message.reply('**you need `manage messages` permissions!**')
