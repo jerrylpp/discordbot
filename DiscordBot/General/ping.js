@@ -8,7 +8,7 @@ module.exports = {
             const client = new Discord.Client();
             const ping = resultMessage.createdTimestamp - message.createdTimestamp
 
-            resultMessage.edit(`Bot latency: ${ping}, API latency: ${msg.channel.ws.ping}`)
+            resultMessage.edit(`Bot latency: ${ping}, API latency: ${msg.client.ws.ping}`)
 
 
         })
