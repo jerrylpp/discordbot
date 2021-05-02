@@ -12,10 +12,10 @@ module.exports = {
     .setColor('RANDOM')
     .setThumbnail(message.guild.iconURL({ dynamic: true }))
     
-    .addField(`Utility:`, '`!ban`, `!kick`, `!purge`, `!serverinfo`')
+    .addField(`Utility:`, '`!ban`, `!kick`, `!purge`,')
     .addField(`Fun:`, '`!say <>`, `!gayr8`, `!penis`')
     .addField(`Help:`, '`!help`, `!info`')
-    .addField(`General:`, '`!ping`')
+    .addField(`Utility:`, '`!ping`, `!serverinfo`')
     
     .setAuthor(message.author.username, message.author.displayAvatarURL({format: 'png'}))
     
