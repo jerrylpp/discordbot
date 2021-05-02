@@ -2,7 +2,7 @@ module.exports = {
     name: 'kick',
     description: "kick a member: +kick <user>  <reason>",
     execute(message, args){
-    if (!message.member.hasPermission("KICK_MEMBERS")) return message.reply("**You need `kick members` permission to do this.**")
+    if (!message.member.hasPermission("KICK_MEMBERS")) return message.reply("**You need `KICK_MEMBERS` permission to do this.**")
     let User = message.guild.member(message.mentions.users.first()) || message.guild.members.cache.get(args[0])
     if (!args[0]){
         message.channel.send("**No user provided retard**");

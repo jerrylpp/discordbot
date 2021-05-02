@@ -12,7 +12,7 @@ module.exports = {
     .setColor('RANDOM')
     .setThumbnail(message.guild.iconURL({ dynamic: true }))
     
-    .addField(`Moderation:`, '`!ban`, `!kick`, `!purge`, `!serverinfo`')
+    .addField(`Utility:`, '`!ban`, `!kick`, `!purge`, `!serverinfo`')
     .addField(`Fun:`, '`!say <>`, `!gayr8`, `!penis`')
     .addField(`Help:`, '`!help`, `!info`')
     .addField(`General:`, '`!ping`')

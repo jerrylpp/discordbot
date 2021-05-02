@@ -11,14 +11,14 @@ max = Math.floor(100);
 const gayrate = Math.floor(Math.random() * (max - min + 1)) + min;
 
 if(gayrate > 99) return (message.channel.send(
-    'ur 100% gay'
+    'ur 100% gay <:818844081731928104:837850117872418838>'
 ));
  
 if(gayrate < 70, gayrate > 68) return (message.channel.send(
-    'bruh ur 69% gay'
+    'ur 69% gay lol'
 ));
 
-message.channel.send(`You are ${gayrate}% gay`);
+message.channel.send(`ur ${gayrate}% gay`);
 
     
 

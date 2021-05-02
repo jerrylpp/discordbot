@@ -4,7 +4,7 @@ module.exports = {
     execute(message, args){
     
     
-    if (!message.member.hasPermission("BAN_MEMBERS")) return message.reply("**You need `ban members` permission to do this.**")
+    if (!message.member.hasPermission("BAN_MEMBERS")) return message.reply("**You need `BAN_MEMBERS` permission to do this.**")
     
     
     let User = message.guild.member(message.mentions.users.first()) || message.guild.members.cache.get(args[0])
@@ -14,7 +14,7 @@ module.exports = {
         message.channel.send("**No user provided dumbass**");
         return;
     };
-    if (!User) return message.channel.send('**Invalid user dumbass**')
+    if (!User) return message.channel.send('**Invalid user retard**')
     
     const Admin = "ADMINISTRATOR"      
     
