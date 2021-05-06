@@ -7,7 +7,7 @@ module.exports = {
         min = Math.ceil(2);
         max = Math.floor(12);
         const length = Math.floor(Math.random() * (max - min + 1)) + min;
-    if(length == 2)message.channel.send('ur penis: 8==D');
+    if(length == 2)message.channel.send(`${message.author.username}'s penis: 8==D`);
     if(length == 3)message.channel.send('ur penis: 8===D');
     if(length == 4)message.channel.send('ur penis: 8====D');
     if(length == 5)message.channel.send('ur penis: 8=====D');
