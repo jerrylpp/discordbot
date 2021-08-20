@@ -4,6 +4,6 @@ module.exports = {
     name: "jerry",
     descritption: "null",
     execute(message, args){
-        message.channel.send('hes crip')
+        message.channel.send('hes crip pog')
     }
 }

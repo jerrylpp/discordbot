@@ -16,6 +16,7 @@ module.exports = {
     .addField(`Fun:`, '`!say <>`, `!gayr8`, `!penis`')
     .addField(`Help:`, '`!help`, `!info`')
     .addField(`Utility:`, '`!ping`, `!serverinfo`')
+    .addField(`Factual Statements:`, '`!urmomsweight`,')
     
     .setAuthor(message.author.username, message.author.displayAvatarURL({format: 'png'}))
     

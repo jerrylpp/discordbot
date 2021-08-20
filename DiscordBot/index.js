@@ -127,6 +127,17 @@ if(command === 'ping'){
     client.commands.get('ping').execute(message, args);
 }
 
+if(command === 'urmomsweight'){
+    client.commands.get('urmomsweight').execute(message, args);
+}
+
+
+
+
+
+
+
+
 });
 
 
