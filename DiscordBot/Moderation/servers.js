@@ -7,14 +7,19 @@ module.exports = {
     execute(message, args){
 
         // client.guilds.cache.forEach((guild) => {
-        //     message.channel.send(guild)
+        //     console.log(guild)
         // }
         
         // )
 
         // let clientguilds = client.guilds.cache()
         // console.log(clientguilds.map(g => g.id) || "None")
-        console.log('test')
+        // console.log('test')
+
+
+        client.guilds.cache.forEach(guild => {
+            console.log(`${guild.name} | ${guild.id}`);
+          })
    
    
    
