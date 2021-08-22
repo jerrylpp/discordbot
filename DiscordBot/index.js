@@ -61,8 +61,7 @@ client.once('ready', () => {
     client.user.setActivity(`!help`);
 });
 
-//  if (message.channel.type == "dm") return;
-//  message.channel.send('commands dont work in dms faggot')
+
 
 //------
 
@@ -73,6 +72,11 @@ client.on('message', message =>{
     const args = message.content.slice(prefix.length).split(/ +/);
     
     const command = args.shift().toLowerCase();
+
+
+ if (message.channel.type == "dm") return;
+ message.channel.send('commands dont work in dms faggot')
+
 
 
 if(command === 'jerry'){
