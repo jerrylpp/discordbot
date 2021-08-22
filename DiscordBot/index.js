@@ -74,8 +74,10 @@ client.on('message', message =>{
     const command = args.shift().toLowerCase();
 
 
- if (message.channel.type == "dm") return;
- message.channel.send('commands dont work in dms faggot')
+ if (message.channel.type == "dm") return then; {
+    message.channel.send('commands dont work in dms faggot')
+ }
+
 
 
 
