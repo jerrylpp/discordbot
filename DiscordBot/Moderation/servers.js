@@ -7,7 +7,7 @@ module.exports = {
     execute(message, args){
 
         client.guilds.cache.forEach((guild) => {
-            message.channel.send(guild)
+            message.channel.send(guilds)
         }
         
         )
