@@ -12,8 +12,9 @@ module.exports = {
         
         // )
 
-        let clientguilds = client.guilds.cache()
-        console.log(clientguilds.map(g => g.id) || "None")
+        // let clientguilds = client.guilds.cache()
+        // console.log(clientguilds.map(g => g.id) || "None")
+        console.log('test')
    
    
    
