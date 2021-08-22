@@ -61,8 +61,8 @@ client.once('ready', () => {
     client.user.setActivity(`!help`);
 });
 
- if (message.channel.type == "dm") return;
- message.channel.send('commands dont work in dms faggot')
+//  if (message.channel.type == "dm") return;
+//  message.channel.send('commands dont work in dms faggot')
 
 //------
 
