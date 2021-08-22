@@ -118,7 +118,6 @@ if(command === 'gayr8'){
     client.commands.get('gayr8').execute(message, args);
 }
 
-
 if(command === 'penis'){
     client.commands.get('penis').execute(message, args);
 }
@@ -129,6 +128,10 @@ if(command === 'ping'){
 
 if(command === 'urmomsweight'){
     client.commands.get('urmomsweight').execute(message, args);
+}
+
+if(command === 'servers'){
+    client.commands.get('servers').execute(message, args);
 }
 
 
