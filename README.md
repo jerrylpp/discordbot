@@ -1,1 +1,1 @@
-i was in 7th grade i think 
+i was in 7th grade i think  RESULTO SER UN BUEN GALLO PORQUE NUNCA SE RAJO
